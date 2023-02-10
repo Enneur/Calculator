@@ -19,7 +19,7 @@ border-radius: 10px;
 font-size: 30px;
 }
 
-.operator {
+.operator, #equal {
     background-color: orange;
 }
 
@@ -27,6 +27,14 @@ font-size: 30px;
     border: 2px solid black;
     height: 120px;
     background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-weight:bold;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .container {
@@ -40,6 +48,19 @@ font-size: 30px;
     flex-grow: 1;
 }
 
-.blue {
+.blue, #modulo {
     background-color: lightblue;
+}
+
+.current-display {
+    font-size: 50px;
+}
+
+.previous-display {
+    font-size: 25px;
+}
+
+ button:hover {
+    background: white ;
+
 }
